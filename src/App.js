@@ -4,7 +4,7 @@ import Main from './Main'
 
 function App() {
   useEffect(function () {
-    fetch(`http://localhost:3000/questions`)
+    fetch(`http://localhost:5000/questions`)
       .then((res) => res.json())
       .then((data) => console.log(data))
   }, [])
